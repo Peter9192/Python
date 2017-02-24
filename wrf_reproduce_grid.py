@@ -67,7 +67,7 @@ def reconstruct_grid(grid_params):
     u_grid = np.meshgrid(x_stag,y)
     v_grid = np.meshgrid(x,y_stag)
 
-    coords = {"x":x,"y":y,"x_stag":x_stag,"y_stag":y_stag},
+    coords = {"x":x,"y":y,"x_stag":x_stag,"y_stag":y_stag}
     grids = {"mass_grid":mass_grid,"u_grid":u_grid,"v_grid":v_grid}
     return coords,grids
 
