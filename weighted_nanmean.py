@@ -62,4 +62,4 @@ if __name__=="__main__":
     # Verifcation array
     x2 = np.array([[[0,1],[2,3],[2,3],[4,5],[4,5],[4,5]],
                    [[6,7],[8,np.nan],[8,np.nan],[10,11],[10,11],[10,11]]],dtype=float)
-    a weighted_nanmean(x,weights=y,axis=1) == np.nanmean(x2)
+    print weighted_nanmean(x,weights=y,axis=1) == np.nanmean(x2)
